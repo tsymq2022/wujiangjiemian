@@ -30,15 +30,16 @@ window.onlineShop = {
         },
         {
             id:202207251931,/*商品id（唯一）*/
-            name:'re_quyi',/*武将id（必填）*/
-            type:'武将',/*商品类型（必填）*/
+            name:'大型礼包',/*武将id（必填）*/
+            type:'批量',/*商品类型（必填）*/
             currency:'coupons',/*结算货币（必填）*/
             price:388,/*售价（必填）*/
             num:1,/*数量（必填）*/
             level:4,/*推荐指数1-5（选填）*/
             vip:1,/*会员等级0-9（选填）*/
 	    unique:false,/*识别码*/
-	    pack:[],/*打包*/
+	    pack:[{name:'qifudeng',num:1},{name:'baoxiang_1',num:1}],/*打包*/
+	    ext:'1',
         },
         {
             id:202207251932,/*商品id（唯一）*/
